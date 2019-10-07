@@ -1,0 +1,71 @@
+.bx-wrapper {
+    overflow: hidden !important;
+}
+.bx-viewport {
+    padding: 0 15px;
+}
+
+.bx-controls {
+    height: 0px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.bx-pager {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 5px;
+}
+
+.bx-pager-item {
+    width: auto;
+    margin: 0 5px;
+    display: inline;
+}
+
+.bx-pager-link {
+    background-image: url(../../images/icons/slider_item.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: 600px;
+    overflow: hidden;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+
+.bx-pager-link.active {
+    background-image: url(../../images/icons/slider_item_active.png);
+}
+
+.bx-controls-direction {
+    padding: 0 5%;
+    width: 90%;
+    bottom: 25px;
+    position: absolute;
+}
+
+.bx-prev {
+    background: url(../../images/icons/slider_item_prev.png) no-repeat;
+    text-indent: 600px;
+    display: block;
+    width: 7px;
+    position: absolute;
+    overflow: hidden;
+    left: 5%;
+    top: 3px;
+}
+
+.bx-next{
+    background: url(../../images/icons/slider_item_next.png) no-repeat;
+    text-indent: 600px;
+    display: block;
+    width: 7px;
+    position: absolute;
+    overflow: hidden;
+    right: 5%;
+    top: 3px;
+}
+
